@@ -1,0 +1,221 @@
+2023.02.22 19:50:15 INFO  Started: Metals version 0.11.10+138-254db453-SNAPSHOT in workspace 'O:\POSTGRAD\HK5\Cloud Computing\Lab07' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/Ngoc%20Tram/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.6/scribe-slf4j_2.13-3.10.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.22 19:50:16 INFO  time: initialize in 0.59s
+2023.02.22 19:50:18 WARN  Build server is not auto-connectable.
+2023.02.22 19:50:18 WARN  no build tool detected in workspace 'O:\POSTGRAD\HK5\Cloud Computing\Lab07'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.22 19:50:18 WARN  no build target for: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank2.scala
+2023.02.22 19:50:35 INFO  no build target found for O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank2.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.02.22 19:50:37 INFO  time: code lens generation in 18s
+2023.02.22 19:51:19 WARN  no build target for: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank.scala
+2023.02.22 19:51:29 WARN  no build target for: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank.scala
+2023.02.22 19:51:41 WARN  no build target for: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank.scala
+Feb 22, 2023 7:51:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2218)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:469)
+	at scala.meta.internal.metals.MetalsLspService.executeCommand(MetalsLspService.scala:1979)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.02.22 19:52:03 WARN  no build target for: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank.scala
+Feb 22, 2023 7:52:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2218)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:469)
+	at scala.meta.internal.metals.MetalsLspService.executeCommand(MetalsLspService.scala:1979)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.02.22 19:52:06 INFO  Shutting down server
+2023.02.22 19:52:06 INFO  shutting down Metals
+2023.02.22 19:52:06 INFO  Exiting server
+2023.02.22 19:53:05 INFO  Started: Metals version 0.11.10+138-254db453-SNAPSHOT in workspace 'O:\POSTGRAD\HK5\Cloud Computing\Lab07' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/Ngoc%20Tram/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.6/scribe-slf4j_2.13-3.10.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.22 19:53:05 INFO  time: initialize in 0.56s
+2023.02.22 19:53:07 WARN  Build server is not auto-connectable.
+2023.02.22 19:53:07 WARN  no build tool detected in workspace 'O:\POSTGRAD\HK5\Cloud Computing\Lab07'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.22 19:53:07 WARN  no build target for: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank.scala
+2023.02.22 19:53:11 INFO  no build target found for O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.02.22 19:53:13 INFO  time: code lens generation in 5.52s
+Feb 22, 2023 7:55:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 22, 2023 7:55:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 22, 2023 7:55:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.02.22 19:58:05 INFO  Shutting down server
+2023.02.22 19:58:05 INFO  shutting down Metals
+2023.02.22 19:58:05 INFO  Exiting server
+2023.02.22 19:59:57 INFO  Started: Metals version 0.11.10+138-254db453-SNAPSHOT in workspace 'O:\POSTGRAD\HK5\Cloud Computing\Lab07' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/Ngoc%20Tram/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.6/scribe-slf4j_2.13-3.10.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.22 19:59:58 INFO  time: initialize in 0.89s
+2023.02.22 20:00:02 WARN  Build server is not auto-connectable.
+2023.02.22 20:00:02 WARN  no build tool detected in workspace 'O:\POSTGRAD\HK5\Cloud Computing\Lab07'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.22 20:00:02 WARN  no build target for: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank2.scala
+2023.02.22 20:00:07 INFO  no build target found for O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank2.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.02.22 20:00:11 INFO  time: code lens generation in 8.22s
+2023.02.22 20:10:44 INFO  Shutting down server
+2023.02.22 20:10:44 INFO  shutting down Metals
+2023.02.22 20:10:44 INFO  Exiting server
+2023.02.23 05:57:24 INFO  Started: Metals version 0.11.10+138-254db453-SNAPSHOT in workspace 'O:\POSTGRAD\HK5\Cloud Computing\Lab07' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/Ngoc%20Tram/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.6/scribe-slf4j_2.13-3.10.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.23 05:57:24 INFO  time: initialize in 0.61s
+2023.02.23 05:58:09 INFO  Started: Metals version 0.11.10+168-f07a4fa3-SNAPSHOT in workspace 'O:\POSTGRAD\HK5\Cloud Computing\Lab07' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/Ngoc%20Tram/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.23 05:58:13 INFO  time: initialize in 4.04s
+2023.02.23 05:58:15 WARN  Build server is not auto-connectable.
+2023.02.23 05:58:15 WARN  no build tool detected in workspace 'O:\POSTGRAD\HK5\Cloud Computing\Lab07'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.23 05:58:15 WARN  no build target for: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank2.scala
+2023.02.23 05:58:27 INFO  no build target found for O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank2.scala. Using presentation compiler with project's scala-library version: 3.2.2
+Feb 23, 2023 6:37:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2023.02.23 07:22:24 INFO  Shutting down server
+2023.02.23 07:22:24 INFO  shutting down Metals
+2023.02.23 07:22:24 INFO  Exiting server
+2023.02.23 07:36:05 INFO  Started: Metals version 0.11.10+168-f07a4fa3-SNAPSHOT in workspace 'O:\POSTGRAD\HK5\Cloud Computing\Lab07' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/Ngoc%20Tram/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.23 07:36:06 INFO  time: initialize in 1.05s
+2023.02.23 07:36:11 WARN  Build server is not auto-connectable.
+2023.02.23 07:36:11 WARN  no build tool detected in workspace 'O:\POSTGRAD\HK5\Cloud Computing\Lab07'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.23 07:36:11 WARN  no build target for: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank2.scala
+2023.02.23 07:36:17 INFO  no build target found for O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank2.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.02.23 07:36:20 INFO  time: code lens generation in 8.73s
+2023.02.23 09:10:22 INFO  Shutting down server
+2023.02.23 09:10:22 INFO  shutting down Metals
+2023.02.23 09:10:22 INFO  Exiting server
+2023.02.23 09:10:46 INFO  Started: Metals version 0.11.10+168-f07a4fa3-SNAPSHOT in workspace 'O:\POSTGRAD\HK5\Cloud Computing\Lab07' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/Ngoc%20Tram/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.23 09:10:47 INFO  time: initialize in 0.74s
+2023.02.23 09:10:51 WARN  Build server is not auto-connectable.
+2023.02.23 09:10:51 WARN  no build tool detected in workspace 'O:\POSTGRAD\HK5\Cloud Computing\Lab07'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.23 09:10:52 WARN  no build target for: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank2.scala
+2023.02.23 09:10:57 INFO  no build target found for O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank2.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.02.23 09:11:00 INFO  time: code lens generation in 8.68s
+2023.02.23 09:11:29 INFO  Shutting down server
+2023.02.23 09:11:29 INFO  shutting down Metals
+2023.02.23 09:11:29 INFO  Exiting server
+2023.02.23 09:13:54 INFO  Started: Metals version 0.11.10+168-f07a4fa3-SNAPSHOT in workspace 'O:\POSTGRAD\HK5\Cloud Computing\Lab07' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/Ngoc%20Tram/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.23 09:13:55 INFO  time: initialize in 0.8s
+2023.02.23 09:14:00 WARN  Build server is not auto-connectable.
+2023.02.23 09:14:00 WARN  no build tool detected in workspace 'O:\POSTGRAD\HK5\Cloud Computing\Lab07'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.23 09:14:00 WARN  no build target for: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank2.scala
+2023.02.23 09:14:05 INFO  no build target found for O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank2.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.02.23 09:14:09 INFO  time: code lens generation in 9.59s
+2023.02.23 09:20:22 WARN  no build target for: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank2.scala
+2023.02.23 09:20:22 WARN  no build target for: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank2.scala
+Feb 23, 2023 9:38:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank2.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank2.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2218)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: O:\POSTGRAD\HK5\Cloud Computing\Lab07\Spark\SparkPageRank\SparkPageRank2.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:469)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:419)
+	at scala.meta.internal.metals.MetalsLspService.executeCommand(MetalsLspService.scala:1840)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.02.23 09:57:00 INFO  Shutting down server
+2023.02.23 09:57:00 INFO  shutting down Metals
+2023.02.23 09:57:00 INFO  Exiting server
